@@ -13,7 +13,7 @@ function App() {
   return (
     <>
       <img src={spotify} className='spotify-logo'/>
-      <h1>ryoko's spotify playlists</h1>
+      <h1>christine's spotify playlists</h1>
       <div className="icon-container">
         <div className='playlist-icon'>
           <a href='https://open.spotify.com/playlist/6gbAC8Dhg8HSopBVH4b4qi?si=15eaf0bcc3d6451c' target="_blank"><img src={catWink} /></a>
