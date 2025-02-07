@@ -5,12 +5,14 @@ import './App.css'
 import catWink from "./images/catWink.jpg"
 import catFoot from "./images/catFoot.jpg"
 import catBlue from "./images/catBlue.jpg"
+import spotify from "./images/spotify.png"
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
+      <img src={spotify} className='spotify-logo'/>
       <h1>ryoko's spotify playlists</h1>
       <div className="icon-container">
         <div className='playlist-icon'>

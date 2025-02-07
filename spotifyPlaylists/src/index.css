@@ -36,15 +36,18 @@ h1 {
   font-size: 3.2em;
   line-height: 1.1;
   color: white;
-  animation-direction: alternate;
+  filter: drop-shadow(7px 9px 9px #000000);
+  animation-direction: normal;
   animation-name: head-animation;
   animation-duration: 4s;
   animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }
 
 @keyframes head-animation {
-  from {transform: rotate(2deg);}
-  to {transform: rotate(-2deg);}
+  from
+  {transform: scale(1);}
+  to{transform: scale(1.05);}
 }
 
 button {

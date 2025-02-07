@@ -39,3 +39,8 @@ img:hover {
   transform: rotate(-2deg);
   transition-duration: 0.5s;
 }
+
+.spotify-logo {
+  height: 50px;
+  width: 50px;
+}
