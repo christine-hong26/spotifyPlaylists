@@ -36,6 +36,15 @@ h1 {
   font-size: 3.2em;
   line-height: 1.1;
   color: white;
+  animation-direction: alternate;
+  animation-name: head-animation;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes head-animation {
+  from {transform: rotate(2deg);}
+  to {transform: rotate(-2deg);}
 }
 
 button {

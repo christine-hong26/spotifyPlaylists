@@ -28,3 +28,14 @@ body {
   border-radius: 10px;
   background-image: linear-gradient(#d5d3de, #a6a8bf);
 }
+
+.playlist-icon:hover {
+  transform:scale(1.025);
+  transition-duration: 0.5s;
+}
+
+img:hover {
+  transform: scale(1.5);
+  transform: rotate(-2deg);
+  transition-duration: 0.5s;
+}
